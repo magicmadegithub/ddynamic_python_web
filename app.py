@@ -20,7 +20,8 @@ resource = {
             "sdkVersion": "0.0.1",
             "appVersion": "1.0.0",
             "exeTime": 1597903878000,
-            "downloadUrl": "http://122.51.124.14:5000/static/resource01.zip"
+
+            "downloadUrl": "http://122.51.125.14:5000/static/resource01.zip"
         },
         {
             "id": "homePageId002",
@@ -28,7 +29,7 @@ resource = {
             "sdkVersion": "0.0.1",
             "appVersion": "1.0.0",
             "exeTime": 1597990278000,
-            "downloadUrl": "http://122.51.124.14:5000/static/resource02.zip"
+            "downloadUrl": "http://122.51.125.14:5000/static/resource02.zip"
         },
     ],
     "deleteIds": []
