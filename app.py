@@ -11,7 +11,6 @@ static_url_path = None,
 # template模板目录, 默认当前项目中的 templates 目录
 template_folder = 'templates'
 
-
 resource = {
     "ids": [
         {
@@ -31,7 +30,7 @@ resource = {
             "exeTime": 1597990278000,
             "downloadUrl": "http://122.51.125.14:5000/static/resource02.zip"
         },
-{
+        {
             "id": "homePageId003",
             "version": "0.0.1",
             "sdkVersion": "0.0.1",
@@ -40,7 +39,16 @@ resource = {
             "downloadUrl": "http://122.51.125.14:5000/static/resource03.zip"
         },
     ],
-    "deleteIds": []
+    "deleteIds": [
+        {
+            "id": "homePageId001",
+            "version": "0.0.1",
+        },
+        {
+            "id": "homePageId002",
+            "version": "0.0.1",
+        },
+    ]
 }
 
 
