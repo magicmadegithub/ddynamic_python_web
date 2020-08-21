@@ -14,23 +14,6 @@ template_folder = 'templates'
 resource = {
     "ids": [
         {
-            "id": "homePageId001",
-            "version": "0.0.1",
-            "sdkVersion": "0.0.1",
-            "appVersion": "1.0.0",
-            "exeTime": 1597903878000,
-
-            "downloadUrl": "http://122.51.125.14:5000/static/resource01.zip"
-        },
-        {
-            "id": "homePageId002",
-            "version": "0.0.1",
-            "sdkVersion": "0.0.1",
-            "appVersion": "1.0.0",
-            "exeTime": 1597990278000,
-            "downloadUrl": "http://122.51.125.14:5000/static/resource02.zip"
-        },
-        {
             "id": "homePageId003",
             "version": "0.0.1",
             "sdkVersion": "0.0.1",
