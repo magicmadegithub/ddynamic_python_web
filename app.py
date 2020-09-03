@@ -34,8 +34,24 @@ resource = {
     ]
 }
 
+refresh = {
+    "base_info": {
+        "name": "李四-李四",
+        "grade": 5,
+        "grade_name": "高二",
+        "service_days": 2757,
+        "remaining_class_hours": 8039,
+        "total_buy_class_hours": 6831
+    },
+}
+
 
 @app.route('/dynamicResource', methods=['POST'])
+def get_resource():
+    return jsonify(resource)
+
+
+@app.route('/dynamicRefresh', methods=['GET'])
 def get_resource():
     return jsonify(resource)
 
