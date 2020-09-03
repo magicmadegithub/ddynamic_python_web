@@ -18,7 +18,7 @@ resource = {
             "version": "0.0.1",
             "sdkVersion": "0.0.1",
             "appVersion": "1.0.0",
-            "exeTime": 1598067358000,
+            "exeTime": 1597983901000,
             "downloadUrl": "http://122.51.125.14:5000/static/resource03.zip"
         },
     ],
