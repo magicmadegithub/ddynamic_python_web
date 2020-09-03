@@ -52,7 +52,7 @@ def get_resource():
 
 
 @app.route('/dynamicRefresh', methods=['GET'])
-def get_resource():
+def get_refresh():
     return jsonify(resource)
 
 
