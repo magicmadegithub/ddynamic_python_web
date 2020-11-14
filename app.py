@@ -93,7 +93,7 @@ class_week = {
                 "week": 1,
                 "period_time_teacher": [
                     {
-                        "period_time": "08:00-09::55",
+                        "period_time": "08:00-09:55",
                         "adequate": 2
                     },
                     {
@@ -126,7 +126,7 @@ class_week = {
                 "week": 2,
                 "period_time_teacher": [
                     {
-                        "period_time": "08:00-09::55",
+                        "period_time": "08:00-09:55",
                         "adequate": 1
                     },
                     {
@@ -159,7 +159,7 @@ class_week = {
                 "week": 3,
                 "period_time_teacher": [
                     {
-                        "period_time": "08:00-09::55",
+                        "period_time": "08:00-09:55",
                         "adequate": 2
                     },
                     {
@@ -192,7 +192,7 @@ class_week = {
                 "week": 4,
                 "period_time_teacher": [
                     {
-                        "period_time": "08:00-09::55",
+                        "period_time": "08:00-09:55",
                         "adequate": 2
                     },
                     {
@@ -225,7 +225,7 @@ class_week = {
                 "week": 5,
                 "period_time_teacher": [
                     {
-                        "period_time": "08:00-09::55",
+                        "period_time": "08:00-09:55",
                         "adequate": 1
                     },
                     {
@@ -258,7 +258,7 @@ class_week = {
                 "week": 6,
                 "period_time_teacher": [
                     {
-                        "period_time": "08:00-09::55",
+                        "period_time": "08:00-09:55",
                         "adequate": 2
                     },
                     {
