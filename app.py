@@ -49,38 +49,43 @@ class_week = {
     "error_code": 0,
     "message": "msg",
     "result": {
-        "product_line_id": 1,
+        "biz_product_line": 1,
+        "semester_end_time": "2020.12.12",
+        "semester_begin_time": "2020.10.19",
+        "course_frequency": 1,
+        "rule_count": 3,
+        "avg_teacher": 10,
         "week_teacher_time": [
             {
                 "week": 0,
                 "period_time_teacher": [
                     {
-                        "period_time": "08:00-09::55",
-                        "teacher_num": 12
+                        "period_time": "08:00-09:55",
+                        "adequate": 1
                     },
                     {
                         "period_time": "10:00-11:55",
-                        "teacher_num": 1
+                        "adequate": 2
                     },
                     {
                         "period_time": "13:00-14:55",
-                        "teacher_num": 3
+                        "adequate": 2
                     },
                     {
                         "period_time": "15:00-16:55",
-                        "teacher_num": 7
+                        "adequate": 2
                     },
                     {
                         "period_time": "17:00-20:55",
-                        "teacher_num": 22
+                        "adequate": 1
                     },
                     {
                         "period_time": "17:30-21:25",
-                        "teacher_num": 56
+                        "adequate": 1
                     },
                     {
                         "period_time": "18:00-21:55",
-                        "teacher_num": 3
+                        "adequate": 2
                     }
                 ]
             },
@@ -89,31 +94,31 @@ class_week = {
                 "period_time_teacher": [
                     {
                         "period_time": "08:00-09::55",
-                        "teacher_num": 3
+                        "adequate": 2
                     },
                     {
                         "period_time": "10:00-11:55",
-                        "teacher_num": 5
+                        "adequate": 2
                     },
                     {
                         "period_time": "13:00-14:55",
-                        "teacher_num": 8
+                        "adequate": 1
                     },
                     {
                         "period_time": "15:00-16:55",
-                        "teacher_num": 11
+                        "adequate": 1
                     },
                     {
                         "period_time": "17:00-20:55",
-                        "teacher_num": 1
+                        "adequate": 2
                     },
                     {
                         "period_time": "17:30-21:25",
-                        "teacher_num": 2
+                        "adequate": 1
                     },
                     {
                         "period_time": "18:00-21:55",
-                        "teacher_num": 18
+                        "adequate": 1
                     }
                 ]
             },
@@ -122,31 +127,31 @@ class_week = {
                 "period_time_teacher": [
                     {
                         "period_time": "08:00-09::55",
-                        "teacher_num": 12
+                        "adequate": 1
                     },
                     {
                         "period_time": "10:00-11:55",
-                        "teacher_num": 11
+                        "adequate": 1
                     },
                     {
                         "period_time": "13:00-14:55",
-                        "teacher_num": 3
+                        "adequate": 2
                     },
                     {
                         "period_time": "15:00-16:55",
-                        "teacher_num": 7
+                        "adequate": 2
                     },
                     {
                         "period_time": "17:00-20:55",
-                        "teacher_num": 2
+                        "adequate": 1
                     },
                     {
                         "period_time": "17:30-21:25",
-                        "teacher_num": 5
+                        "adequate": 1
                     },
                     {
                         "period_time": "18:00-21:55",
-                        "teacher_num": 31
+                        "adequate": 2
                     }
                 ]
             },
@@ -155,31 +160,31 @@ class_week = {
                 "period_time_teacher": [
                     {
                         "period_time": "08:00-09::55",
-                        "teacher_num": 1
+                        "adequate": 2
                     },
                     {
                         "period_time": "10:00-11:55",
-                        "teacher_num": 122
+                        "adequate": 1
                     },
                     {
                         "period_time": "13:00-14:55",
-                        "teacher_num": 32
+                        "adequate": 1
                     },
                     {
                         "period_time": "15:00-16:55",
-                        "teacher_num": 3
+                        "adequate": 2
                     },
                     {
                         "period_time": "17:00-20:55",
-                        "teacher_num": 7
+                        "adequate": 2
                     },
                     {
                         "period_time": "17:30-21:25",
-                        "teacher_num": 5
+                        "adequate": 1
                     },
                     {
                         "period_time": "18:00-21:55",
-                        "teacher_num": 3
+                        "teacher_num": 2
                     }
                 ]
             },
@@ -188,31 +193,31 @@ class_week = {
                 "period_time_teacher": [
                     {
                         "period_time": "08:00-09::55",
-                        "teacher_num": 1
+                        "adequate": 2
                     },
                     {
                         "period_time": "10:00-11:55",
-                        "teacher_num": 12
+                        "adequate": 1
                     },
                     {
                         "period_time": "13:00-14:55",
-                        "teacher_num": 3
+                        "adequate": 2
                     },
                     {
                         "period_time": "15:00-16:55",
-                        "teacher_num": 7
+                        "adequate": 2
                     },
                     {
                         "period_time": "17:00-20:55",
-                        "teacher_num": 22
+                        "adequate": 1
                     },
                     {
                         "period_time": "17:30-21:25",
-                        "teacher_num": 56
+                        "adequate": 1
                     },
                     {
                         "period_time": "18:00-21:55",
-                        "teacher_num": 3
+                        "adequate": 2
                     }
                 ]
             },
@@ -221,31 +226,31 @@ class_week = {
                 "period_time_teacher": [
                     {
                         "period_time": "08:00-09::55",
-                        "teacher_num": 12
+                        "adequate": 1
                     },
                     {
                         "period_time": "10:00-11:55",
-                        "teacher_num": 1
+                        "adequate": 2
                     },
                     {
                         "period_time": "13:00-14:55",
-                        "teacher_num": 30
+                        "adequate": 1
                     },
                     {
                         "period_time": "15:00-16:55",
-                        "teacher_num": 7
+                        "adequate": 2
                     },
                     {
                         "period_time": "17:00-20:55",
-                        "teacher_num": 2
+                        "adequate": 1
                     },
                     {
                         "period_time": "17:30-21:25",
-                        "teacher_num": 5
+                        "adequate": 2
                     },
                     {
                         "period_time": "18:00-21:55",
-                        "teacher_num": 3
+                        "adequate": 2
                     }
                 ]
             },
@@ -254,39 +259,35 @@ class_week = {
                 "period_time_teacher": [
                     {
                         "period_time": "08:00-09::55",
-                        "teacher_num": 1
+                        "adequate": 2
                     },
                     {
                         "period_time": "10:00-11:55",
-                        "teacher_num": 11
+                        "adequate": 1
                     },
                     {
                         "period_time": "13:00-14:55",
-                        "teacher_num": 3
+                        "adequate": 2
                     },
                     {
                         "period_time": "15:00-16:55",
-                        "teacher_num": 70
+                        "adequate": 1
                     },
                     {
                         "period_time": "17:00-20:55",
-                        "teacher_num": 22
+                        "adequate": 1
                     },
                     {
                         "period_time": "17:30-21:25",
-                        "teacher_num": 5
+                        "adequate": 25
                     },
                     {
                         "period_time": "18:00-21:55",
-                        "teacher_num": 31
+                        "adequate": 1
                     }
                 ]
             }
-        ],
-        "semester_end_time": "2020.12.12",
-        "semester_begin_time": "2020.10.19",
-        "course_frequency": "week",
-        "rule_count": 3
+        ]
     }
 }
 
