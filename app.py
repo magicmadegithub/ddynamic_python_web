@@ -53,7 +53,7 @@ class_week = {
         "semester_end_time": "2020.12.12",
         "semester_begin_time": "2020.10.19",
         "course_frequency": 2,
-        "rule_count": 3,
+        "rule_count": 1,
         "avg_teacher": 10,
         "week_teacher_time": [
             {
@@ -291,6 +291,54 @@ class_week = {
     }
 }
 
+class_day = {
+    "error_code": 0,
+    "message": "msg",
+    "result": {
+        "biz_product_line": 1,
+        "semester_end_time": "2020.12.24",
+        "semester_begin_time": "2020.9.19",
+        "course_frequency": 1,
+        "rule_count": 1,
+        "avg_teacher": 15,
+        "week_teacher_time": [
+            {
+                "week": 3,
+                "period_time_teacher": [
+                    {
+                        "period_time": "08:00-09:55",
+                        "adequate": 2
+                    },
+                    {
+                        "period_time": "10:00-11:55",
+                        "adequate": 1
+                    },
+                    {
+                        "period_time": "13:00-14:55",
+                        "adequate": 1
+                    },
+                    {
+                        "period_time": "15:00-16:55",
+                        "adequate": 2
+                    },
+                    {
+                        "period_time": "17:00-20:55",
+                        "adequate": 2
+                    },
+                    {
+                        "period_time": "17:30-21:25",
+                        "adequate": 1
+                    },
+                    {
+                        "period_time": "18:00-21:55",
+                        "teacher_num": 2
+                    }
+                ]
+            }
+        ]
+    }
+}
+
 
 @app.route('/dynamicResource', methods=['POST'])
 def get_resource():
@@ -305,6 +353,11 @@ def get_refresh():
 @app.route('/classWeek', methods=['GET'])
 def get_class_week():
     return jsonify(class_week)
+
+
+@app.route('/classDay', methods=['GET'])
+def get_class_week():
+    return jsonify(class_day)
 
 
 @app.errorhandler(404)
