@@ -356,7 +356,7 @@ def get_class_week():
 
 
 @app.route('/classDay', methods=['GET'])
-def get_class_week():
+def get_class_day():
     return jsonify(class_day)
 
 
