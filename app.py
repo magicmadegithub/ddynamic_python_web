@@ -52,7 +52,7 @@ class_week = {
         "biz_product_line": 1,
         "semester_end_time": "2020.12.12",
         "semester_begin_time": "2020.10.19",
-        "course_frequency": 1,
+        "course_frequency": 2,
         "rule_count": 3,
         "avg_teacher": 10,
         "week_teacher_time": [
